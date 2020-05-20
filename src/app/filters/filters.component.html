@@ -1,0 +1,61 @@
+<section>
+  <app-profile></app-profile>
+</section>
+
+        <div>
+          <div class="col-sm-12 pad-40-15">
+
+              <P class="filters">Filters</P><span class="clear">Clear All</span>
+            <div class="col-sm-3">
+              <mat-card class="pad-btm">
+                  <button mat-stroked-button color="primary" class="delivery">Delivery</button>
+                  <button mat-stroked-button color="primary" class="pick-up">Pick Up</button>
+                  <hr>
+                  <p class="cusines">Cusines<span class="clear-1">Clear All</span></p>
+                  <div>
+                      <button mat-stroked-button color="primary" class="fooding-styles">Bengali</button>&nbsp;
+                      <button mat-stroked-button color="primary" class="fooding-styles">Italian</button>&nbsp;
+                      <button mat-stroked-button color="primary" class="fooding-styles">Chineese</button>
+                  </div>
+                  <div class="secnd-row">
+                      <button mat-stroked-button color="primary" class="fooding-styles">Indian</button>&nbsp;
+                      <button mat-stroked-button color="primary" class="fooding-styles">Arabian</button>&nbsp;
+                      <button mat-stroked-button color="primary" class="fooding-styles">Mexican</button>
+                  </div>
+                  <div class="secnd-row">
+                      <button mat-stroked-button color="primary" class="fooding-styles">Spanish</button>&nbsp;
+                      <button mat-stroked-button color="primary" class="fooding-styles">French</button>&nbsp;
+                      <button mat-stroked-button color="primary" class="fooding-styles">American</button>
+                  </div>
+                  <small class="load">Load More</small>
+                  <hr class="hr-2">
+                  
+                  
+                  </mat-card>
+            </div>
+
+            <h5 class="restorants">Restorants near you</h5>
+            <div class="col-sm-6">
+              <mat-card>
+                sai srinivas
+              </mat-card>
+            </div>
+
+            <div class="col-sm-3">
+              <mat-card class="food-bag">
+                <h3>Food Bag</h3>
+              </mat-card>
+              <mat-card class="food-empty">
+                <h5 class="your-food-empty">Your Food bag is empty</h5>
+                  <img src="../../assets/room-service.PNG">
+              </mat-card>
+            </div>
+          </div>
+        </div>
+        
+        <form [formGroup]="form">
+          <ngx-star-rating formControlName="rating" [id]="'rating'"></ngx-star-rating>
+          <div>Rating: {{form.value.rating}}</div>
+          <p>form is valid: {{ form.valid ? 'true' : 'false' }}</p>
+      </form>
+     

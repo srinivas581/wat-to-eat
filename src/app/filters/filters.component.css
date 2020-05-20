@@ -1,0 +1,113 @@
+.pad-40-15{
+    padding: 25px 15px;
+}
+.filters{
+    position: relative;
+    margin-left: 27px;
+    font-weight: bold;
+
+}
+.clear{
+    position: absolute;
+    font-size: 10px;
+    color: #03afff;
+    left: 28em;
+    top: 30px;
+}
+.restorants{
+position: absolute;
+top: 17px;
+left: 27em;
+font-weight: bold;
+}
+
+
+/* second col-sm-3 */
+.food-bag{
+    background: #DCDCDC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 10px 10px 0px 0px;
+    opacity: 1;
+    padding: 20px;
+}
+.food-bag h3{
+    text-align: center;
+    color: #8A8A8A;
+}
+.food-empty{
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    height: 430px;
+    
+}
+.food-empty img{
+    position: absolute;
+    left: 94px;
+    top: 115px;
+}
+.your-food-empty{
+    color: #B5B5B5;
+    position: absolute;
+    left: 75px;
+    top: 75px;
+}
+
+
+/* First col-sm-3 */
+.pad-btm{
+    padding-bottom: 238px;
+}
+.delivery{
+    border-radius: 0;
+    background: #03afff;
+    color: #ffff;
+    font-size: 11px;
+    width: 50%;
+}
+
+.pick-up{
+    font-size: 11px;
+    border-radius: 0;
+    border-color: #03AFFF;
+    width: 50%;
+    color: #03AFFF;
+}
+hr{
+    width: 70%;
+}
+.hr-2{
+    margin-top: 45px;
+    width: 70%;
+}
+.cusines{
+color: #545454;
+font-size: 12px;
+}
+.clear-1{
+    margin-left: 20px;
+    font-size: 9px;
+    color: #03AFFF;
+}
+.fooding-styles{
+    border-radius: 20px;
+    font-size: 10px;
+    color: #000;
+    opacity: 0.9;
+    width: 31%;
+}
+.fooding-styles :hover{
+    color: #03afff !important;
+    border-color: #03afff !important;
+
+
+}
+.secnd-row{
+    margin-top: 15px;
+}
+.load{
+    float: right;
+    font-size: 9px;
+    color: #03AFFF;
+    padding: 20px 0;
+}
+

@@ -1,0 +1,42 @@
+.login{
+    width: 425px;
+    position: absolute;
+    right: 28%;
+    left: 35%;
+    top: 14%;
+}
+
+  h4{
+    text-align: center;   
+    color: #03AFF0;
+}  
+mat-form-field{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.mr-bt-10{
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.mr-bt-chk-10{
+    margin-bottom: 10px;
+}
+.sub-bt{
+    background: #03AFF0;
+    color: #fff;
+    width: 130px;
+}
+hr{
+    width: 85%;
+}
+.for-pass{
+color: #03AFF0;
+}
+.check-box{
+    font-weight: 100;
+}
+p{
+    cursor: pointer;
+}

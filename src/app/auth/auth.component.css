@@ -1,0 +1,20 @@
+.size-mat{
+    padding: 3px;
+}
+.food-logo img{
+    width: 43px;
+    margin-left: 20px;
+}
+.food-logo span{
+    padding-left: 15px;
+    font-size: 15px;
+    font-family: fantasy;
+    color: #03AFF0;
+}
+.pad-top-0{
+    top: 0;
+}
+.bg-color{
+    background: #f6f8f9;
+    height: 100%;
+}

@@ -1,0 +1,306 @@
+.food-img img{
+    width: 100%;
+    height: 625px;
+    object-fit: cover;
+    clip-path: polygon(0% -496px, 0px 100%, 100% 184%);
+    
+}
+.food-img{
+    background:#F2F2F2
+}
+.head-position{
+position: relative;
+}
+.header-menu{
+position:absolute;
+top: 0;
+width: 100%;
+padding-top: 15px;
+}
+.pull-left img{
+    height: 49px;
+    width: 100px;
+    object-fit: contain;
+
+}
+.header-menu h3{
+    display: inline;
+    color: #fff;
+    font-size: 35px;
+    vertical-align: middle;
+    font-family: fantasy;
+}
+a{
+    margin-right: 15px;
+    font-size: 11px;
+    color: #03AFF0;
+}
+.align-btn{
+    padding-right: 37px;
+}
+.align-btn span{
+    cursor: pointer;
+}
+.sign-btn{
+    background: #03AFF0;
+    opacity: 1;
+    font-size: 11px;
+    height: 25px;
+    border: none;
+}
+
+.inner h4{
+margin: 15px;
+font-size: 50px;
+font-family: fantasy;
+
+}
+.outer {
+    display: table;
+    position: absolute;
+    /* top: 3px; */
+    left: 35%;
+    /* height: 100%; */
+    width: 50%;
+    right: 50%;
+    bottom: 67%;
+  }
+  
+  .middle {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    /*whatever width you want*/
+  }
+  .inner small{
+    font-size: 115%;
+    font-weight: bold;
+    font-family: fantasy;
+    margin-left: 20px;
+  }
+  .v-box{
+    display: table;
+    position: absolute;
+    left: 52%;
+    width: 40%;
+    right: 50%;
+    bottom: 46%;
+}
+.v-box h2{
+    font-size: 35px;
+    font-family: fantasy;
+    color: #ffa500;
+}
+.locat{
+    display: table;
+    position: absolute;
+    left: 63%;
+    width: 30%;
+    right: 41%;
+    bottom: 30%;
+
+}
+.locat .location{
+position: absolute;
+padding: 7px;
+color: #03AFF0;
+font-size: 18px;
+}
+.pad{
+    padding-left: 30px;
+    width: 200px;
+    display: inline;
+    border-radius: 0;
+    height: 32px;
+    font-size: 12px;
+}
+.food-btn{
+    display: inline;
+}
+.food-btn button{
+    border-radius: 0;
+    padding: 8px 12px;
+    font-size: 11px;
+    border: none;
+    background: #03AFF0;
+}
+.dwld-btn{
+    
+    position: absolute;
+    bottom: 5%;
+    right: 16%;
+}
+.dwld-btn button{
+    background: #F8A22F;
+    color: #fff;
+}
+/* .food-img1 img{
+    width: 100%;
+    object-fit: cover;
+    
+    
+} */
+/* .food-img1{
+    position: relative;
+    
+}
+layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} */
+.background {
+    background-image:url("../../assets/component.png");
+    position: relative;
+	height:550px;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 550px;
+}
+.layer h4{
+    text-align: center;
+    margin-top: 55px;
+    font-size: 38px;
+    color: #F8A22F;
+    font-family: fantasy;
+}
+.contact{
+    padding: 50px 100px;
+
+}
+.bord-rad{
+    /* height: 270px;
+    border-radius: 50%;
+    width: 230px; */
+    /* top: 931px;
+    left: 142px;
+    width: 215px;
+    height: 215px; */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 0.2;
+    width: 80%;
+    border-radius: 50%;
+    padding: 100px;
+    left: 35px;
+    top: 10px;
+    position: relative;
+    
+}
+.center-icons{
+    position: absolute;
+    font-size: 100px;
+    color: #D8D8D8;
+    top: 27%;
+    left: 27%;
+}
+.center-icons-1{
+    position: absolute;
+    top: 62px;
+    left: 70px;
+}
+.bag{
+    margin-top: -12px;
+    padding: 5px;
+}
+
+
+.modal-blur {
+    background-color: rgba(255, 255, 255, 0.95); 
+    border-radius: 5px;
+    color: #333;
+    font-family: sans-serif;  
+    padding: 1rem 2rem;
+
+    width: 80%;
+    border-radius: 50%;
+    padding: 100px;
+    left: 40px;
+    top: 10px;
+    position: relative;
+    
+  }
+  
+  @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .modal-blur{
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0.2);  
+    }
+   
+  }
+  .order-info{
+    margin-left: 19px;
+  }
+  .order-info h5{
+    color: #D8D8D8;
+    font-size: 18px;
+    font-family: fantasy;
+    padding: 15px;
+    text-align: center;
+    line-height: 1.2;
+  }
+  .angle{
+      position: absolute;
+      color: #D8D8D8;
+      top: 20%;
+      right: -54px;
+      font-size: 68px;
+
+  }
+  .angle-arrw{
+      font-size: 100px;
+  }
+  .order-info p{
+    color: #d8d8d8;
+    font-size: 10px;
+    text-align: center;
+  }
+ .cash-back{
+    margin-bottom: 0;
+    padding-bottom: 10px;
+ }
+  .sec-3{
+      background: #f7f7f7;
+      height: 400px;
+  }
+  .pad-top-bt{
+    padding: 100px 0;
+  }
+  .store{
+    font-size: 85px;
+    color: #0E8BA5;
+  }
+  .store1{
+    font-size: 85px;
+    color: #431A11;
+  }
+  .enroll{
+    font-size: 28px;
+    color: #000;
+    font-family: fantasy;
+    margin-top: 0;
+  }
+  .boost{
+    color: #888888;
+    font-size: 20px;
+    font-family: fantasy;
+  }
+  .start{
+    font-size: 12px;
+    color: #0E8BA5;
+  }
+  

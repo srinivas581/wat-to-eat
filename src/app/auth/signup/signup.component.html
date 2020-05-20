@@ -1,0 +1,51 @@
+<div>
+  <mat-card class="login">
+    <h4>Welcome!</h4>
+    <hr>
+    <div>
+      <form>
+        <div>
+
+          <small>Enter Your Mobile NUmber</small>
+        </div>
+        <div>
+          <mat-form-field appearance="outline">
+            <input matInput>
+          </mat-form-field>
+        </div>
+
+        <div>
+          <small>Enter Your Password</small>
+        </div>
+        <div>
+          <mat-form-field appearance="outline">
+            <input matInput [type]="hide ? 'password' : 'text'">
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                <mat-icon class="opa-0">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button>
+          </mat-form-field>
+        </div>
+
+        <div>
+          <small>Confirm Password</small>
+        </div>
+        <div>
+          <mat-form-field appearance="outline">
+            <input matInput [type]="hide ? 'password' : 'text'">
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                <mat-icon class="opa-0">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button>
+          </mat-form-field>
+        </div>
+
+        <div class="mr-bt-10">
+          <button mat-stroked-button color="primary" class="sub-bt">SignUp</button>
+        </div>
+
+        <div class="mr-bt-10 already-user">
+          <p routerLink="/auth/login">Already User?</p>
+        </div>
+      </form>
+    </div>
+  </mat-card>
+</div>

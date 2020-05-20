@@ -1,0 +1,25 @@
+.phone{
+    width: 425px;
+    position: absolute;
+    right: 28%;
+    left: 35%;
+    top: 22%;
+}
+.next-btn{
+    margin-left: 135px;
+    background: #03AFF0;
+    width: 115px;
+}
+
+h4{
+    text-align: center;   
+    color: #03AFF0;
+    
+} 
+small{
+    font-size: 10px;
+}
+mat-form-field {
+    
+    width: 330px;
+}
