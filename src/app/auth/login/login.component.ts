@@ -14,5 +14,7 @@ export class LoginComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  filter(){
+    this.route.navigate(['/filters'])
+  }
 }

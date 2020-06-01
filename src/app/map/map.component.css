@@ -1,0 +1,72 @@
+.card-map{
+    width: 90%;
+    padding: 15px;
+}
+.ratings{
+    font-size: 11px;
+}
+.map1{
+    margin-left: -24px;
+}
+.house-birayni{
+    color: #03afff;
+    font-size: 18px;
+    top: 100px;
+}
+.checked {
+    color: orange;
+  }
+  .four-thirty{
+    display: inline;
+    color: #03AFFF;
+}
+.address-miles{
+    position: absolute;
+    top: 297px;
+    left: 424px;
+    width: 37%;
+      opacity: 0.5;
+}
+.street{
+    font-size: 12px;
+    font-weight: bold;
+    font-size: 10px;
+}
+.miles{
+    position: absolute;
+    top: 13px;
+    right: 18px;
+    font-weight: bold;
+    font-size: 10px;
+}
+.weeks ul{
+    margin-top: 10px;
+    padding: 0px;
+    list-style: none;
+    font-size: 11px;
+    line-height: 19px;
+   
+}
+.avtive-hours{
+    position: absolute;
+    top: 368px;
+    color: #03AFFF;
+    font-weight: bold;
+}
+.hours ul{
+    position: absolute;
+  
+    list-style: none;
+    font-size: 11px;
+    line-height: 19px;
+    top: 391px;
+    left: 515px;
+}
+.clear{
+    position: absolute;
+    top: 46px;
+    right: 450px;
+    cursor: pointer;
+    font-size: 20px;
+
+}

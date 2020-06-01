@@ -37,25 +37,25 @@ font-weight: bold;
 .food-empty{
     border-radius: 0px 0px 10px 10px;
     position: relative;
-    height: 430px;
+    height: 535px;
     
 }
 .food-empty img{
     position: absolute;
     left: 94px;
-    top: 115px;
+    top: 168px;
 }
 .your-food-empty{
     color: #B5B5B5;
     position: absolute;
     left: 75px;
-    top: 75px;
+    top: 110px;
 }
 
 
 /* First col-sm-3 */
 .pad-btm{
-    padding-bottom: 238px;
+    padding-bottom: 175px;
 }
 .delivery{
     border-radius: 0;
@@ -79,9 +79,14 @@ hr{
     margin-top: 45px;
     width: 70%;
 }
+.hr-3{
+    margin-top: 106px;
+    width: 70%;
+}
 .cusines{
 color: #545454;
 font-size: 12px;
+cursor: pointer;
 }
 .clear-1{
     margin-left: 20px;
@@ -110,4 +115,121 @@ font-size: 12px;
     color: #03AFFF;
     padding: 20px 0;
 }
+.rating{
+    font-size: 14px;
+    font-family: cursive;
+}
+.clear-2{
+    margin-left: 20px;
+    font-size: 9px;
+    color: #03AFFF;
+}
 
+/* Rating */
+.rating {
+    float:left;
+
+}
+
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    padding:0.1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:200%;
+    line-height:1.3;
+    color:#ddd;
+    border: 1px solid #03AFF0;
+    padding-left: 0;
+    width: 43px;
+    padding: 0px 0;
+}
+
+.rating:not(:checked) > label:before {
+    content: '★';
+    padding: 9px;
+}
+
+.rating > input:checked ~ label {
+    color: #fff;
+    background: #03AFFF;
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: #fff;
+    background: #03AFFF;
+}
+
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #fff;;
+}
+
+/* col-sm-6 */
+.hyd-postn-rel{
+    position: relative;
+}
+.hyd-postn-rel-1{
+    margin-top: 10px;
+}
+.hyd-house{
+    position: absolute;
+    left: 125px;
+    top: 8px;
+}
+.mill-24{
+    margin-left: 330px;
+}
+.ind-china{
+    position: absolute;
+    top: 30px;
+    left: 125px;
+    font-size: 10px;
+}
+.dollar{
+    color: #03AFF0;
+    margin-left: 385px;
+    font-size: 13px;
+}
+.checked {
+    color: orange;
+  }
+  .stars{
+    position: absolute;
+    top: 63px;
+    left: 123px;
+  }
+.four-thirty{
+    display: inline;
+    color: #03AFFF;
+}
+.eta{
+    margin-left: 298px;
+    font-size: 10px;
+    color: #000;
+}
+.rate-135{
+    position: absolute;
+    bottom: 12px;
+    left: 124px;
+    font-size: 10px;
+}
+.open{
+    font-size: 9px;
+    width: 11%;
+    float: right;
+    margin-top: -18px;
+    padding: 3px;
+    background: #2FBE6C;
+    border: none;
+}

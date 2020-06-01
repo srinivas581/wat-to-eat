@@ -1,0 +1,110 @@
+<div>
+  <div class="card-pizza">
+     
+    <div class="col-sm-12">
+
+        <div class="col-sm-2 pizza">
+            <img src="../../assets/pizza.png" (click)="openDilaog()">
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+              </div>
+          </div>
+
+        <div class="col-sm-10 marg-left">
+            <h5 class="special-pizza">Special cheese Pizza</h5>
+            <span class="material-icons cancel" (click)="cancel()">cancel</span>
+            <h6 class="rate">$26.99</h6>
+            <small class="quant">Quantity</small>
+            <div class="quantity">
+                <input type="text" [(ngModel)]="inputModel" [maxlength]="maxLength" style="width:35px ; text-align: center" readonly />  
+              </div>
+              <div class="plus-minus">
+                <button class="btn btn-primary" (click)="decrement()">-</button>
+                <button class="btn btn-primary" (click)="increment()">+</button>
+                <small class="reset" (click)="reset()">Reset</small>
+              </div>
+
+        </div>   
+
+    </div>
+    
+  </div>
+
+  <div class="flow-over">
+  <div>
+    <mat-card class="choose-size">
+      <h6>Choose a size<span class="req">Required &nbsp;<small>(choose1)</small></span></h6>
+      <p class="modifier">Modifier Description,Modifier Description,Modifier Description</p>
+
+      <div>
+        <div class="pull-left"><mat-radio-button class="small">Small</mat-radio-button></div>
+        <div class="price">+$00.00</div> 
+      </div>
+      <hr class="horiz">
+      <div>
+        <div class="pull-left"><mat-radio-button class="small">Medium</mat-radio-button></div>
+        <div class="price">+$05.00</div> 
+      </div>
+      <hr class="horiz">
+      <div>
+        <div class="pull-left"><mat-radio-button class="small">Large</mat-radio-button></div>
+        <div class="price">+$10.00</div> 
+      </div>
+      <hr class="horiz">
+      </mat-card>
+  </div>
+
+  <div>
+    <mat-card class="extra">
+        <h6>Would you like to add extra ?<span class="req">Optional &nbsp;<small>(choose upto 3 options)</small></span></h6>
+        <p class="modifier">Modifier Description,Modifier Description,Modifier Description</p>
+
+      <div>
+          <div class="pull-left"><mat-checkbox class="add">Add Beacon</mat-checkbox></div>
+          <div class="pull-right">+$00.00</div>         
+      </div>
+        <hr class="horiz-line">
+        <div>
+            <div class="pull-left"><mat-checkbox class="add">Add Fired eggs</mat-checkbox></div>
+            <div class="pull-right">+$05.00</div>         
+        </div>
+          <hr class="horiz-line">
+        <div>
+              <div class="pull-left"><mat-checkbox class="add">Add Avacado</mat-checkbox></div>
+              <div class="pull-right">+$06.00</div>         
+        </div>
+          <hr class="horiz-line">
+          <div>
+              <div class="pull-left"><mat-checkbox class="add">Add Fired eggs</mat-checkbox></div>
+              <div class="pull-right">+$05.00</div>         
+        </div>
+          <hr class="horiz-line">
+          <div>
+              <div class="pull-left"><mat-checkbox class="add">Add Avacado</mat-checkbox></div>
+              <div class="pull-right">+$06.00</div>         
+        </div>
+          <hr class="horiz-line">
+          <div>
+              <div class="pull-left"><mat-checkbox class="add">Add Beacon</mat-checkbox></div>
+              <div class="pull-right">+$00.00</div>                     
+        </div>
+        <hr class="horiz-line">
+    </mat-card>
+  </div>
+
+  <div>
+    <div class="inst">Special Instructions</div>
+  </div>
+  <div>
+    <input type="text" class="field-input" />
+  </div>
+
+  <div>
+    <button mat-flat-button="" color="primary" class="add-bag">Add to Bag ($20)</button>
+  </div>
+
+</div>
+  
+</div>

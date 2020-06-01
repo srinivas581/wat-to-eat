@@ -1,0 +1,235 @@
+.sec-1{
+    margin-top: 13px;
+}
+.ingredients{
+    position: relative;
+    width: 100%;
+    margin-top: -12px;
+}
+.out-star{
+    position: absolute;
+    top: 80px;
+    right: 76px;
+    color: #ffff;
+}
+.share{
+    position: absolute;
+    top: 80px;
+    right: 35px;
+    color: #ffff;
+}
+.hyd-house{
+    position: absolute;
+    left: 50px;
+    top: 150px;
+
+}
+.pen-circle{
+    position: absolute;
+    top: 49px;
+    width: 100%;
+    opacity: 0.9;
+    padding: 4px 80px;
+    font-size: 9px;
+    border-radius: 0;
+}
+.mar-tp{
+    margin-top: -150px;
+}
+.location{
+    position: absolute;
+    padding: 5px 6px;
+    color: #03AFF0;
+    font-size: 13px;
+    top: 71px;
+    left: 9px;
+    cursor: pointer;
+}
+.main-street{
+    margin-left: 3px;
+}
+.open{
+    width: 9%;
+    float: right;
+    margin-top: -33px;
+    padding: 6px;
+    background: #2FBE6C;
+    border: none;
+    margin-right: 11px;
+}
+.eta{
+    margin-left: 123px;
+}
+/* col-sm-9 */
+.house-biryani h3{
+    color: #03AFF0;
+    margin-top: 25px;
+}
+.checked {
+    color: orange;
+  }
+  .four-thirty{
+    display: inline;
+    color: #03AFFF;
+}
+.dollar{
+    color: #03AFFF;
+    margin-left: 70px;
+}
+
+.del{
+    margin-left: 135px;
+}
+.eta-1{
+    float: right;
+    margin-right: 20px;
+    font-size: 12px;
+}
+.about{
+    margin-left: 28px;
+    font-family: sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+.review{
+    margin-left: 75px;
+}
+.pizza{
+   margin-top: 10px;
+}
+.pizza h6{
+    cursor: pointer;
+}
+.pizza img{
+    position: absolute;
+    width: 145px;
+    /* bottom: 0; */
+    /* bottom: 0; */
+    top: -10px;
+    left: 284px;
+}
+.top-right{
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    background: #FFF;
+}
+
+.margn-tp{
+    margin-top: 15px;
+}
+.multi-items{
+    height: 325px;
+}
+.multi-items1{
+    height: 463px;
+}
+.multi-items2{
+    height: 463px;
+    margin-bottom: 31px;
+}
+
+.most-popular{
+    color: #03AFF0;
+}
+
+
+
+/* food bag */
+
+
+
+.food-bag{
+    background: #FFBC00 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 10px 10px 0px 0px;
+    opacity: 1;
+    padding: 20px;
+}
+.food-bag h3{
+    text-align: center;
+    color: #FFF;
+}
+.food-empty{
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    height: 400px;
+    
+}
+.special-cheese{
+    color: #F5F8F9;
+    margin-top: 0px;
+    margin-left: -16px;
+    width: 112%;
+    border-radius: 0;
+}
+.chineese-cheese{
+    background: #F5F8F9;
+    margin-top: 10px;
+    margin-left: -16px;
+    width: 112%;
+    border-radius: 0;
+}
+.number{
+color: #000;
+}
+.special-pizza{
+    color: #03AFFF;
+}
+.pizza-rate{
+    margin-left: 65px;
+}
+.add-cheese{
+    font-size: 11px;
+    margin-left: 23px;
+    margin-top: 10px;
+    color: #8A8A8A;
+}
+.medium-spicy{
+    font-size: 10px;
+    color: #000;
+    margin-left: 24px;
+}
+.delete{
+    color: #BD392C;
+    font-size: 19px;
+    margin-left: 150px;
+}
+.total-rate{
+margin-left: 135px;
+}
+.item-sub{
+margin-top: 10px;
+}
+.Proceed{
+    margin-left: 10px;
+    margin-top: 50px;
+    font-size: 11px;
+    padding: 0 70px;
+    background: #03AFFF;
+}
+.arrow-up{
+    position: absolute;
+    right: 25px;
+    top: 1440px;
+    font-size: 45px;
+    background: #03AFFF;
+    border-radius: 50%;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* backdropBackground */
+
+/* .backdropBackground{
+    background-color: rgba(255, 255, 255, 0.95); 
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .backdropBackground{
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0.2);  
+    }
+} */

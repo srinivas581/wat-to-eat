@@ -1,0 +1,243 @@
+     <div class="pad-0-40">
+        <mat-card>
+          <div>
+            <h6 class="delivery-address-home">Delivery Address-Home
+              <span class="change" (click)="change()">change</span>
+            </h6>
+            <span class="material-icons arrow-key-right">keyboard_arrow_right</span>
+            <P class="pen-circle-1014">1014 pencircle<br>King of persia<br>PA<small class="eta-40-50">ETA-40-50-mins</small></P>
+          </div>
+          <div class="first-icon">
+            <mat-card class="room">
+              <span class="material-icons room-location">room</span>
+            </mat-card>
+          </div>
+        </mat-card>
+      </div>
+
+      <div class="pad-0">
+        <mat-card>
+          <div>
+            <h6 class="delivery-address-home">Delivery Instructions
+              <span class="change">change</span>
+            </h6>
+            <span class="material-icons arrow-key-right">keyboard_arrow_right</span>
+            <small class="please-use">"Please use Mail gate"</small>
+          </div>
+          <div class="second-icon">
+            <mat-card class="room">
+              <span class="material-icons format-quote">format_quote</span>
+            </mat-card>
+          </div>
+        </mat-card>
+      </div>
+
+      <div class="pad-0-40">
+        <mat-card>
+          <div>
+            <h6 class="delivery-address-home">Payment
+              <span class="change">change</span>
+            </h6>
+            <span class="material-icons arrow-key-right">keyboard_arrow_right</span>
+            <img src="../../assets/visa-pay-logo.png" class="visa-img">
+            <small class="please-use">"Visa ending with 4589"</small>
+          </div>
+          <div class="second-icon">
+            <mat-card class="room">
+              <span class="material-icons room-location">attach_money</span>
+            </mat-card>
+          </div>
+        </mat-card>
+      </div>
+
+
+      <div class="pad">
+        <mat-card>
+          <div>
+            <h6 class="delivery-address-home">Account Credits
+              <span class="change">change</span>
+            </h6>
+            <span class="material-icons arrow-key-right">keyboard_arrow_right</span>
+            <small class="please-use">"Balance $8.79"
+              <span class="redeemed">Redeemed $5.00</span>
+            </small>
+          </div>
+          <div class="second-icon">
+            <mat-card class="room">
+              <img src="../../assets/Dollar Bag.png" class="dollar-bag">
+            </mat-card>
+          </div>
+        </mat-card>
+      </div>
+
+      <div class="pad-last-card">
+        <mat-card>
+          <div>
+            <h6 class="delivery-address-home">Tips</h6>
+            <div class="grid-container">
+              <div class="grid-item">15%</div>
+              <div class="grid-item">20%</div>
+              <div class="grid-item">25%</div>
+              <div class="grid-item">30%</div>
+              <div class="grid-item">custom</div>
+
+            </div>
+            <br>
+            <div class="grid-container1">
+              <div class="grid-item1">$2.5</div>
+              <div class="grid-item1">$3.5</div>
+              <div class="grid-item1">$4.5</div>
+              <div class="grid-item1">$5.5</div>
+
+
+            </div>
+          </div>
+          <div class="cash-card">
+            <mat-card class="room">
+              <img src="../../assets/cash.PNG" class="cash">
+            </mat-card>
+          </div>
+        </mat-card>
+      </div>
+
+
+      <!-- css -->
+
+      .vl{
+    border-left: 1px solid #03AFFF;
+    height: 500px;
+}
+.first-icon{
+    position: absolute;
+    top: 40px;
+    left: -20px;
+}
+.room{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #03AFFF;
+}
+.room-location{
+    color: #03AFFF;
+    position: absolute;
+    top: 8px;
+    right: 7px;
+}
+.pad-0-40{
+    padding: 0px 40px;
+    width: 106%;
+}
+.delivery-address-home{
+    margin-top: 0;
+    font-size: 15px;
+    padding: 0 30px;
+
+}
+.change{
+    float: right;
+    font-size: 13px;
+    color: #03AFFF;
+    font-family: calibri;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.arrow-key-right{
+    float: right;
+    text-align: end;
+    font-size: 22px;
+    color: #03AFFF;
+    margin: -30px 12px;
+}
+.pen-circle-1014{
+    color: #8A8A8A;
+    padding: 0px 30px;
+}
+.eta-40-50{
+    
+    float: right;
+    margin: 16px -20px;
+    letter-spacing: 1px;
+}
+
+
+.pad-0{
+  padding: 50px 40px;
+  width: 106%;   
+}
+.please-use{
+  font-size: 10px;
+  margin-left: 28px;
+  color: #8a8a8a;
+}
+.second-icon{
+  position: absolute;
+  top: 19px;
+  left: -20px;
+}
+.format-quote{
+  color: #03AFFF;
+  position: absolute;
+  top: 8px;
+  right: 7px;
+}
+
+/* matcard-3 */
+.visa-img{
+  margin-left: 30px;
+  width: 30px;
+}
+.redeemed{
+  color: #2FBE6C;
+  margin: 0 285px;
+}
+.pad{
+  padding: 32px 40px;
+  width: 106%;   
+}
+.dollar-bag{
+  position: absolute;
+  top: 8px;
+  left: 4px;
+  width: 30px;
+}
+
+/* Last mat card */
+.pad-last-card{
+  padding: 35px 40px;
+  width: 106%;   
+}
+.grid-container {
+  display: inline-flex;
+  background-color: #ffffff;
+  padding: 10px 30px;
+}
+.grid-item {
+  border: 1px solid rgba(3, 175, 255, 0.45);
+  padding: 5px 20px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+}
+.grid-container1 {
+  display: inline-flex;
+  background-color: #ffffff;
+  padding: 0px 30px;
+}
+.grid-item1 {
+  border: 1px solid rgba(255, 255, 255, 1);
+  padding: 5px 20px;
+  font-size: 11px;
+  text-align: center;
+}
+.cash-card{
+  position: absolute;
+  top: 32px;
+  left: -20px;
+}
+.cash{
+  position: absolute;
+  top: 12px;
+  left: 4px;
+  width: 30px;
+}

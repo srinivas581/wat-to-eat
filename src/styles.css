@@ -43,3 +43,62 @@ font-size: 12px;
 .opa-0{
     opacity: 0.3;
 }
+.cdk-overlay-container{
+    backdrop-filter: blur(4px);
+    
+}
+.mat-checkbox-inner-container{
+    height: 11px !important;
+    width: 11px !important;
+    margin-left: 13px !important;
+    
+}
+.mat-radio-outer-circle{
+    height: 12px!important;
+    width: 12px!important;
+}
+.mat-radio-container {
+    width: 11px!important;
+    height: 17px!important;
+    margin-left: 13px!important;
+}
+.cdk-overlay-backdrop.cdk-overlay-backdrop-showing{
+    background-color: rgba(33, 31, 31, 0.77)!important;
+}
+
+.mat-dialog-container#mat-dialog-1 {
+    background: transparent!important;
+    background: none;
+}
+
+button:focus {
+    /* outline: 1px dotted; */
+    outline: none;
+}
+.address-home .home-card .btn-radio .mat-radio-inner-circle {
+    background-color: #FFF!important;
+    width: 12px!important;
+    height: 12px!important;
+}   
+.address-home .home-card .btn-radio .mat-radio-outer-circle{
+    border-color: #FFF!important;
+    border-width: 0.1px!important;
+}
+.address-work .home-card .btn-radio .mat-radio-inner-circle {
+    background-color: #FFF!important;
+    width: 12px!important;
+    height: 12px!important;
+}   
+.address-work .home-card .btn-radio .mat-radio-outer-circle{
+    border-color: #FFF!important;
+    border-width: 0.1px!important;
+}
+.mat-step-header .mat-step-icon-selected, .mat-step-header 
+.mat-step-icon-state-done, .mat-step-header 
+.mat-step-icon-state-edit{
+    background-color: #FFF;
+    color: #03AFFF;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #03AFFF;
+  }

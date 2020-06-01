@@ -1,0 +1,198 @@
+.card-pizza{
+    /* position: absolute;
+    border-radius: 0;
+    top: 11px;
+    left: 425px;
+    width: 500px;
+    height: 132px;  */
+    box-shadow: 0px 0px 8px #dcdcdc;
+}
+.cancel{
+    color: #BD392C;
+    position: absolute;
+    top: 0px;
+    left: 360px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.pizza{
+    margin-top: -130px;
+    margin-left: -35px;
+}
+.pizza img{
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    width: 178%;
+    cursor: pointer;
+}
+.marg-left{
+    margin-left: 64px;
+    margin-top: -123px;
+}
+.special-pizza{
+    padding: 0px 24px;
+    margin-top: -4px;
+    font-size: 19px;
+}
+.rate{
+    color: #03AFFF;
+    margin-top: 15px;
+    padding: 0 27px;
+    font-size: 16px;
+}
+.quant{
+    padding-left: 26px;
+}
+.quantity{
+    margin-left: 32px;
+}
+.plus-minus{
+    position: absolute;
+    top: 72px;
+    left: 113px;
+}
+.plus-minus button{
+    color: #03AFFF;
+    background-color: #FFF;
+    border-color: #03AFFF;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 0;
+    font-weight: bold;
+}
+.plus-minus button :active{
+    color: #03AFFF;
+    background-color: #FFF;
+    border-color: #03AFFF;
+}
+    
+.reset{
+    
+    padding: 12px;
+    font-size: 10px;
+    color: #03AFFF;
+    cursor: pointer;
+}
+
+.flow-over{
+
+}
+
+/* choose size */
+
+
+.choose-size{
+    margin-top: 111px;
+    background: #E1FAEC;
+    border: 1px solid#2FBE6C;
+    box-shadow: unset;
+    margin-left: -11px;
+    width: 105%;
+}
+.choose-size h6{
+    font-size: 10px;
+}
+
+.req{
+    margin-left: 10px;
+    color: #BD392C;
+   
+}
+.modifier{
+    font-size: 10px;
+}
+.small{
+    font-family: sans-serif;
+}
+.horiz{
+    border-top: 1px solid #000;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    opacity: 0.1;
+}
+.price{
+    float: right!important;
+    font-size: 13px;
+    margin-top: 0;
+}
+
+
+/* extra */
+
+.extra{
+    background: #DFF2F9;
+    border: 1px solid#2FBE6C;
+    box-shadow: unset;
+    margin-top: 10px;
+    margin-left: -11px;
+    width: 105%;
+    height: 270px;
+}
+.extra h6{
+    font-size: 10px;
+}
+.add{
+    
+    font-family: sans-serif;
+}
+
+
+.pull-right{
+    float: right!important;
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+/*.mat-checkbox-inner-container{
+    height: 12px !important;
+    width: 12px !important;
+}*/
+.horiz-line{
+    border-top: 1px solid #000;
+    margin-top: 33px;
+    margin-bottom: 5px;
+    opacity: 0.1;
+}
+span.mat-checkbox-label {
+    font-size: 10px!important;
+}
+.mat-checkbox-layout .mat-checkbox-label{
+    font-size: 10px!important;
+}
+
+/* instructions */
+
+.inst{
+    margin-top: 10px;
+    color: #333333;
+    font-size: 13px;
+}
+.field-input{
+    background: #F5F8F9;
+    border: 1px solid #D4D4D4;
+    padding: 15px 135px;
+    margin-top: 10px;
+}
+
+.add-bag{
+    background: #03AFFF;
+    font-size: 12px;
+    padding: 0 80px;
+    margin-top: 40px;
+    margin-left: 85px;
+}
+
+
+
+
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }

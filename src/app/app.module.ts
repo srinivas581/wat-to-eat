@@ -7,6 +7,7 @@ import { NgOtpInputModule } from  'ng-otp-input';
 import {MatInputModule} from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
+import {MatStepperModule} from '@angular/material/stepper';
 
 
 import { AppComponent } from './app.component';
@@ -20,6 +21,15 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProfileComponent } from './profile/profile.component';
 import { FiltersComponent } from './filters/filters.component';
+import { CusineModeldialogComponent } from './cusine-modeldialog/cusine-modeldialog.component';
+import { HouseComponent } from './house/house.component';
+import { House1Component } from './house1/house1.component';
+import { MapComponent } from './map/map.component';
+import { SelectCusineComponent } from './select-cusine/select-cusine.component';
+import { MatRadioModule } from '@angular/material/radio';
+import { SpecialPizzaComponent } from './special-pizza/special-pizza.component';
+import { PlaceOrderComponent } from './place-order/place-order.component';
+import { DeliveryAddressComponent } from './delivery-address/delivery-address.component';
 
 
 // import { CampaignsComponent } from './campaigns/campaigns.component';
@@ -30,7 +40,15 @@ const router:Routes=[
   {path:'auth',loadChildren:'./auth/auth.module#AuthModule'},
   {path:'footer',component:FooterComponent},
   {path:'profile',component:ProfileComponent},
-  {path:"filters",component:FiltersComponent}
+  {path:"filters",component:FiltersComponent},
+  {path:"cusine",component:CusineModeldialogComponent},
+  {path:"house",component:HouseComponent},
+  {path:"house1",component:House1Component},
+  {path:"map",component:MapComponent},
+  {path:"select_cusine",component:SelectCusineComponent},
+  {path:"special_pizza",component:SpecialPizzaComponent},
+  {path:"place_order",component:PlaceOrderComponent},
+  {path:"deliver_address",component:DeliveryAddressComponent}
 
   
   
@@ -44,7 +62,15 @@ const router:Routes=[
     HomeComponent,
     FooterComponent,
     ProfileComponent,
-    FiltersComponent
+    FiltersComponent,
+    CusineModeldialogComponent,
+    HouseComponent,
+    House1Component,
+    MapComponent,
+    SelectCusineComponent,
+    SpecialPizzaComponent,
+    PlaceOrderComponent,
+    DeliveryAddressComponent
     
    
     // CampaignsComponent,
@@ -67,6 +93,9 @@ const router:Routes=[
     MatInputModule,
     MatCardModule,  
     MatIconModule,
+    MatRadioModule,
+    MatStepperModule
+
     
 
 

@@ -1,0 +1,61 @@
+.dialog-box{
+    
+    bottom: 23px;
+    right: 23px;
+     width: 110%;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: none;
+    background: #F5F8F9;
+    position: relative;
+
+}
+.pad1{
+    width: 35%;
+    border-radius: 22px;
+    height: 25px;
+    font-size: 10px;
+    opacity: 0.5;
+    padding: 0px 35px
+}
+/* .find-food1{
+    position: absolute;
+    left: 245px;
+    top: 0;
+} */
+.location1{
+    font-size: 17px;
+    opacity: 0.5;
+    position: absolute;
+    top: 22px;
+    left: 21px;
+}
+
+/* .pad1{
+    padding-left: 23px;
+    width: 400px;
+    border-radius: 24px;
+    height: 22px;
+    font-size: 9px;
+}  */
+.apply{
+    position: absolute;
+    font-size: 8px;
+    width: 65px;
+    top: 15px;
+    left: 205px;
+    background: #03AFFF;
+    border: none;
+}
+.clear{
+    position: absolute;
+    right: 10px;
+    top: 19px;
+    font-size: 18px;
+    color: #03AFFF;
+    cursor: pointer;
+}
+.search-cusine ul{
+   list-style: none;
+   float: left;
+   padding: 0px 16px;
+}

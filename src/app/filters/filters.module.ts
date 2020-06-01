@@ -7,7 +7,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
-import { NgxStarRatingModule } from 'ngx-star-rating';
+import {MatDialogModule} from '@angular/material/dialog';
 
 
 import { FiltersComponent } from './filters.component';
@@ -32,8 +32,9 @@ const router:Routes=[
       MatInputModule,
       MatCardModule,
       MatIconModule,
-      MatButtonModule,
-      NgxStarRatingModule
+      MatButtonModule, 
+      MatDialogModule
+      
       
       
     ],
