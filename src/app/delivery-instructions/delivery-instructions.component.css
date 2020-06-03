@@ -1,0 +1,27 @@
+.marg-23{
+    margin: -21px -24px 22px;
+}
+.delivery-instructions{
+    text-align: center;
+}
+.cancel{
+    float: right;
+    font-size: 16px;
+    color: #BD392C;
+    cursor: pointer;
+}
+.instruction-text-area{
+    background: #F5F8F9;
+    border: 1px solid #D4D4D4;
+    font-size: 8px;
+    padding: 45px 125px;
+}
+.instruction-text-area :focus{
+    border: 1px solid #D4D4D4!important; 
+}
+.continue{
+    padding: 0px 100px;
+    margin: 25px 55px 0px;
+    font-size: 10px;
+    background: #03AFFF;
+}

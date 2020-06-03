@@ -30,6 +30,12 @@ import { MatRadioModule } from '@angular/material/radio';
 import { SpecialPizzaComponent } from './special-pizza/special-pizza.component';
 import { PlaceOrderComponent } from './place-order/place-order.component';
 import { DeliveryAddressComponent } from './delivery-address/delivery-address.component';
+import { AddNewAddressComponent } from './add-new-address/add-new-address.component';
+import { EditAddressComponent } from './edit-address/edit-address.component';
+import { DeliveryInstructionsComponent } from './delivery-instructions/delivery-instructions.component';
+import { PaymentOrderComponent } from './payment-order/payment-order.component';
+import { AccountCreditsComponent } from './account-credits/account-credits.component';
+
 
 
 // import { CampaignsComponent } from './campaigns/campaigns.component';
@@ -48,7 +54,13 @@ const router:Routes=[
   {path:"select_cusine",component:SelectCusineComponent},
   {path:"special_pizza",component:SpecialPizzaComponent},
   {path:"place_order",component:PlaceOrderComponent},
-  {path:"deliver_address",component:DeliveryAddressComponent}
+  {path:"deliver_address",component:DeliveryAddressComponent},
+  {path:"add_address",component:AddNewAddressComponent},
+  {path:"edit_address",component:EditAddressComponent},
+  {path:"instructions",component:DeliveryInstructionsComponent},
+  {path:'payment',component:PaymentOrderComponent},
+  {path:"account",component:AccountCreditsComponent}
+  
 
   
   
@@ -70,7 +82,12 @@ const router:Routes=[
     SelectCusineComponent,
     SpecialPizzaComponent,
     PlaceOrderComponent,
-    DeliveryAddressComponent
+    DeliveryAddressComponent,
+    AddNewAddressComponent,
+    EditAddressComponent,
+    DeliveryInstructionsComponent,
+    PaymentOrderComponent,
+    AccountCreditsComponent
     
    
     // CampaignsComponent,

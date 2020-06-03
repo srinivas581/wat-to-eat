@@ -102,3 +102,16 @@ button:focus {
     height: 45px;
     border: 1px solid #03AFFF;
   }
+  .payment-radio-button .debit-card .mat-radio-outer-circle{
+    height: 15px!important;
+    width: 15px!important;
+    border-color: #03AFFF;
+  }
+ .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle{
+    border-color: #03AFFF!important;
+  }
+  .mat-radio-button.mat-accent .mat-radio-inner-circle, .mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple), .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple, .mat-radio-button.mat-accent:active .mat-radio-persistent-ripple{
+    background-color: #03AFFF;
+    height: 15px;
+    width: 15px;
+  }

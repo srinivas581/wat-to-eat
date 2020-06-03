@@ -1,0 +1,43 @@
+.new-address{
+    text-align: center;
+    margin-top: -10px;
+}
+.cancel{
+    color: #BD392C;
+    font-size: 15px;
+    float: right;
+    cursor: pointer;
+}
+.search-icon{
+    position: absolute;
+    top: 60px;
+    font-size: 18px;
+    opacity: 0.5;
+    left: 455px;
+}
+
+
+.pad1{
+    padding: 0px 24px;
+    border-radius: 20px;
+    opacity: 0.5;
+    font-size: 11px;
+}
+
+.first-col-5{
+    margin: 25px -38px;
+    font-size: 10px;
+}
+.field1{
+    width: 130%;
+}
+.second-col-5{
+    margin: 25px 73px;
+    font-size: 10px;
+}
+.save{
+    background: #03AFFF;
+    border: none;
+    padding: 7px 100px;
+    margin-left: 95px;
+}

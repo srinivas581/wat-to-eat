@@ -1,5 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
+import {AfterViewInit, Directive, QueryList, ViewChildren} from '@angular/core';
+import { EditAddressComponent } from './edit-address/edit-address.component';
+import { AddNewAddressComponent } from './add-new-address/add-new-address.component';
 
 
 @Component({
@@ -9,7 +12,10 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'project4';
-  constructor(private route:Router) { }
+
+    @ViewChild(AddNewAddressComponent)
+    EditAddressComponent:AddNewAddressComponent
+      constructor(private route:Router) { }
 
   ngOnInit() {
   }

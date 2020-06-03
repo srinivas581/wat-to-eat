@@ -32,7 +32,7 @@
                 <mat-card>
                   <div>
                     <h6 class="delivery-address-home">Delivery Instructions
-                      <span class="change">change</span>
+                      <span class="change" (click)="instructions()">change</span>
                     </h6>
                     <span class="material-icons arrow-key-right">keyboard_arrow_right</span>
                     <small class="please-use">"Please use Mail gate"</small>
@@ -49,7 +49,7 @@
                 <mat-card>
                   <div>
                     <h6 class="delivery-address-home">Payment
-                      <span class="change">change</span>
+                      <span class="change" (click)="payment()">change</span>
                     </h6>
                     <span class="material-icons arrow-key-right">keyboard_arrow_right</span>
                     <img src="../../assets/visa-pay-logo.png" class="visa-img">
@@ -68,7 +68,7 @@
                 <mat-card>
                   <div>
                     <h6 class="delivery-address-home">Account Credits
-                      <span class="change">change</span>
+                      <span class="change" (click)="account()">change</span>
                     </h6>
                     <span class="material-icons arrow-key-right">keyboard_arrow_right</span>
                     <small class="please-use">"Balance $8.79"

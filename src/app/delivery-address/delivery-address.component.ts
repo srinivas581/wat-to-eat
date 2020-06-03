@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog, MatDialogRef } from '@angular/material/dialog';
+import { AddNewAddressComponent } from '../add-new-address/add-new-address.component';
+import { EditAddressComponent } from '../edit-address/edit-address.component';
+
 
 
 @Component({
@@ -17,6 +20,22 @@ export class DeliveryAddressComponent implements OnInit {
     this.dialogRef.close();
   }
   edit(){
-    
+    const dialogRef=this.dialog.open(EditAddressComponent,{
+      width:'500px',
+      data:{ }
+    });
+    dialogRef.afterClosed().subscribe(result=>{
+      console.log('edit address')
+    })
+  }
+  openDialog1(){
+    const dialogRef=this.dialog.open(AddNewAddressComponent,{
+      width:'500px',
+      data:{ }
+
+    });
+    dialogRef.afterClosed().subscribe(result=>{
+      console.log('address form');
+    });
   }
 }
