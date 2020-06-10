@@ -4,6 +4,7 @@
 .food-logo img{
     width: 43px;
     margin-left: 20px;
+    cursor: pointer;
 }
 .food-logo span{
     padding-left: 15px;
@@ -28,6 +29,7 @@
     right: 35px;
     top: 5px;
     color: #03Afff;
+    cursor: pointer;
 }
 .account h6{
     margin-top: -5px;

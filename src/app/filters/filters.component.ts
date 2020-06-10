@@ -46,7 +46,7 @@ export class FiltersComponent implements OnInit {
       console.log('selected');
     });
 }
- 
+
 }
 
 

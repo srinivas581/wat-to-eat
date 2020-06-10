@@ -3,7 +3,7 @@
          <div class="postn-rel">
         <mat-card class="size-mat">
             <div class="food-logo">
-                <img src="../../assets/food-logo.png">
+                <img src="../../assets/food-logo.png" (click)="filters()">
                 <span>wat To Eat</span>
             </div>
         </mat-card>
@@ -26,7 +26,7 @@
          </div>
 
          <div class="account">
-        <span class="material-icons">person</span>
+        <span class="material-icons" (click)="orders()">person</span>
         <h6>profile</h6>  
          </div>
 

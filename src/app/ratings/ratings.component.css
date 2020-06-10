@@ -1,0 +1,68 @@
+.pen-circle{
+    position: absolute;
+    top: 49px;
+    width: 100%;
+    opacity: 0.9;
+    padding: 4px 80px;
+    font-size: 9px;
+    border-radius: 0;
+    box-shadow: 0px 3px 5px #dcdcdc;
+}
+.marg-30-50{
+    margin: 30px 50px;
+}
+.col-2-hyd-img{
+    clear: both;
+    float: inherit;
+    margin: -6px -35px;
+}
+
+/* .col-12-hyd-house,.col-2-hyd-img{
+    float: none;
+} */
+.hyd-house-img{
+    margin: -12px;
+    width: 11%;
+
+}
+.h4-text{
+    display: inline;
+    vertical-align: top;
+    padding: 0px 36px;
+    font-size: 25px;
+    color: #03AFFF;
+}
+.open-btn{
+    display: inline;
+    vertical-align: top;
+    float: right;
+}
+.open{
+    font-size: 10px;
+    margin-right: 35px;
+    padding: 0 40px;
+    background: #2fbe6c;
+}
+.main-street{
+    display: inline;
+}
+.small-main-street{
+    margin: -338px;
+}
+.eta-40-50{
+    margin: 217px;
+}   
+.checked {
+    color: orange;
+  }
+  .four-thirty{
+    display: inline;
+    color: #03AFFF;
+}
+.dollar{
+    color: #03AFFF;
+    margin-left: 70px;
+}
+.stars{
+    display: inline;
+}

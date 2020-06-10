@@ -10,6 +10,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatStepperModule} from '@angular/material/stepper';
 
 
+
 import { AppComponent } from './app.component';
 import { RouterModule,Routes} from "@angular/router";
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
@@ -35,6 +36,13 @@ import { EditAddressComponent } from './edit-address/edit-address.component';
 import { DeliveryInstructionsComponent } from './delivery-instructions/delivery-instructions.component';
 import { PaymentOrderComponent } from './payment-order/payment-order.component';
 import { AccountCreditsComponent } from './account-credits/account-credits.component';
+import { RatingsComponent } from './ratings/ratings.component';
+import { OrdersComponent } from './orders/orders.component';
+import { MyOrdesComponent } from './my-ordes/my-ordes.component';
+import { MyProfileComponent } from './my-profile/my-profile.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { Authservices } from './authservices';
+
 
 
 
@@ -59,7 +67,12 @@ const router:Routes=[
   {path:"edit_address",component:EditAddressComponent},
   {path:"instructions",component:DeliveryInstructionsComponent},
   {path:'payment',component:PaymentOrderComponent},
-  {path:"account",component:AccountCreditsComponent}
+  {path:"account",component:AccountCreditsComponent},
+  {path:"ratings",component:RatingsComponent},
+  {path:"orders",component:OrdersComponent},
+  {path:"my-ordes",component:MyOrdesComponent},
+  {path:"my-profile",component:MyProfileComponent},
+  {path:"account-settings",component:AccountSettingsComponent}
   
 
   
@@ -87,8 +100,13 @@ const router:Routes=[
     EditAddressComponent,
     DeliveryInstructionsComponent,
     PaymentOrderComponent,
-    AccountCreditsComponent
-    
+    AccountCreditsComponent,
+    RatingsComponent,
+    OrdersComponent,
+    MyOrdesComponent,
+    MyProfileComponent,
+    AccountSettingsComponent,
+   
    
     // CampaignsComponent,
   
@@ -117,7 +135,10 @@ const router:Routes=[
 
 
   ],
-  providers: [],
+  providers: [
+
+    Authservices
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

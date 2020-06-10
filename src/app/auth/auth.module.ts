@@ -19,6 +19,8 @@ import { SignupComponent } from './signup/signup.component';
 import { ForgetPasswordComponent } from './forget-password/forget-password.component';
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
 import { PhoneNumberComponent } from './phone-number/phone-number.component';
+import { ForgetPassword2Component } from './forget-password2/forget-password2.component';
+
 
 const router:Routes=[
  
@@ -26,8 +28,9 @@ const router:Routes=[
     {path:"login",component:LoginComponent},
     {path:"signup",component:SignupComponent},
     {path:"phone",component:PhoneNumberComponent},
-    {path:"forget",component:ForgetPasswordComponent},
-    {path:"reset",component:ResetPasswordComponent}
+    {path:"verify-phone",component:ForgetPasswordComponent},
+    {path:"reset",component:ResetPasswordComponent},
+    {path:"forget-password2",component:ForgetPassword2Component}
   ]},
   
 ]
@@ -40,7 +43,8 @@ const router:Routes=[
         SignupComponent,
         ForgetPasswordComponent,
         ResetPasswordComponent,
-        PhoneNumberComponent
+        PhoneNumberComponent,
+        ForgetPassword2Component
     ],
     
   
