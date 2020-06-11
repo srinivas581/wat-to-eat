@@ -13,6 +13,7 @@ import {MatButtonModule} from '@angular/material/button';
 
 
 
+
 import { AuthComponent } from './auth.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
@@ -20,6 +21,7 @@ import { ForgetPasswordComponent } from './forget-password/forget-password.compo
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
 import { PhoneNumberComponent } from './phone-number/phone-number.component';
 import { ForgetPassword2Component } from './forget-password2/forget-password2.component';
+import { InterceptorModule } from '../interceptor/interceptor.module';
 
 
 const router:Routes=[
@@ -30,6 +32,7 @@ const router:Routes=[
     {path:"phone",component:PhoneNumberComponent},
     {path:"verify-phone",component:ForgetPasswordComponent},
     {path:"reset",component:ResetPasswordComponent},
+    {path:"reset/:id/:token",component:ResetPasswordComponent},
     {path:"forget-password2",component:ForgetPassword2Component}
   ]},
   
@@ -59,7 +62,8 @@ const router:Routes=[
       MatIconModule,
       NgOtpInputModule,
       MatCardModule,
-      MatButtonModule
+      MatButtonModule,
+      InterceptorModule
       
     ],
     providers: [],

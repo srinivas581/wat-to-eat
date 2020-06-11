@@ -20,6 +20,7 @@ export class ForgetPassword2Component implements OnInit {
 
   ngOnInit() {
     this.validation();
+    this.get_country()
   }
   validation(){
     this.emailForm=this.fb.group({
@@ -40,5 +41,13 @@ export class ForgetPassword2Component implements OnInit {
           }
         )
       }
+  }
+
+
+  get_country(){
+    this.authservice.get_country().subscribe((res:any)=>{
+      console.log(res)
+      console.log(res[0].name)
+    })
   }
 }

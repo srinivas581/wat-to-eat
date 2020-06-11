@@ -45,7 +45,7 @@ export class SignupComponent implements OnInit {
     this.signupForm.get('confirmpassword').hasError('pattern')? 'valid ' + msg : '' ;
 
   }
-   
+     
 
   signup(){
     console.log(this.signupForm.value)

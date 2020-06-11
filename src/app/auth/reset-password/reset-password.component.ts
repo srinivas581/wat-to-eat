@@ -1,7 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 import { FormGroup, FormBuilder, FormControl, Validators } from '@angular/forms';
+import { Authservices } from '../../authservices';
 // import { MustMatch } from '../../_helpers/must-match.validators';
+
+
 
 
 
@@ -14,9 +17,18 @@ export class ResetPasswordComponent implements OnInit {
 
   hide=true;
   passwordForm:FormGroup
-  constructor(private route:Router,private fb:FormBuilder) { }
+
+  id:any
+  token:any
+  constructor(private route:Router,private fb:FormBuilder,private activated:ActivatedRoute,private authservice:Authservices) { }
 
   ngOnInit() {
+    this.activated.params.subscribe(params=>{
+      console.log(params['id'])
+      console.log(params['token'])
+      this.id=params['id']
+      this.token=params['token']
+    })
     this.validation()
 
     }
@@ -36,10 +48,17 @@ export class ResetPasswordComponent implements OnInit {
       
       if(this.passwordForm.value.password==this.passwordForm.value.confirmpassword){
         console.log(this.passwordForm.value)
-        
+        this.authservice.resetPassword(this.id,this.token,this.passwordForm.value).subscribe(
+          (res:any)=>{
+            console.log(res)
+            
+          }
+        )
       }
       else{
         alert('Password must match');
       }
+      console.log(this.passwordForm.value)
     }
+    
 }

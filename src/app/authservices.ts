@@ -28,4 +28,14 @@ export class Authservices {
     submit(data){
         return this.http.post(environment.url + "",data)
     }
+
+    resetPassword(id,token,data){
+        return this.http.post(environment.url + "/eat/verifyreset/" + id + '/' + token ,data)
+    }
+     get_country(){
+         return this.http.get('https://restcountries.eu/rest/v2/all')
+     }
 }
+
+
+// chrome.exe --user-data-dir='c://chrome dev session' --disable-web-security
